@@ -1,6 +1,6 @@
 const sw = navigator.serviceWorker;
 
-window.history.pushState({},"", 'chrome-extension://ibgldmpgejkmgbilmkmfdfcckhfjnido/#/');
+window.history.pushState({},"", location.origin +'/#/');
 
 sw.addEventListener('message', function(evt){
   if(evt.data.type === 'update'){
