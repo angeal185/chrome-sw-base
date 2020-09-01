@@ -1,0 +1,33 @@
+{
+    "name": "chrome-sw-base",
+    "version": "1.0.0",
+    "description": "",
+    "icons": {
+      "16": "/app/img/ico.png",
+      "48": "/app/img/ico.png",
+      "128": "/app/img/ico.png"
+    },
+    "options_page": "index.html",
+    "browser_action": {
+      "default_icon": {
+        "16": "/app/img/ico.png",
+        "48": "/app/img/ico.png",
+        "128": "/app/img/ico.png"
+      },
+      "default_title": "Google Mail"
+    },
+    "offline_enabled": true,
+    "background": {
+      "scripts": ["app/js/background.js"],
+      "persistent": true
+    },
+    "permissions": [
+       "<all_urls>",
+       "unlimitedStorage",
+       "storage",
+       "webRequest",
+       "webRequestBlocking",
+       "tabs"
+    ],
+    "manifest_version": 2
+}

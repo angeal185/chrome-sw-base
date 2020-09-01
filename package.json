@@ -1,0 +1,17 @@
+{
+  "name": "chrome-sw-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/js/background.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeal185/chrome-sw-base.git"
+  },
+  "keywords": [],
+  "author": "ben eaves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angeal185/chrome-sw-base/issues"
+  },
+  "homepage": "https://github.com/angeal185/chrome-sw-base#readme"
+}
